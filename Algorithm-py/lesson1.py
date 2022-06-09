@@ -7,7 +7,7 @@ def hisobla():
     return summa
 
 
-print(hisobla())
+# print(hisobla())
 
 # Katta son topish
 
@@ -28,7 +28,7 @@ def eng_katta(a, b, c):
     return javob
 
 
-print(eng_katta(120, 100, 99))
+# print(eng_katta(120, 100, 99))
 
 
 # N faktorial
@@ -44,4 +44,4 @@ def faktoriallar(N):
 
 
 son = int(input("Son kiriting: "))
-print(faktoriallar(son))
+# print(faktoriallar(son))

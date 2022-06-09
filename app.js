@@ -6,3 +6,4 @@ function faktorial(num) {
   return natija;
 }
 console.log(faktorial(6));
+
