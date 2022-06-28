@@ -36,10 +36,8 @@ def eng_katta(a, b, c):
 
 def faktoriallar(N):
     faktorial = 1
-    i = 1
     for m in range(1, N + 1):
         faktorial *= m
-        i += 1
     return faktorial
 
 
