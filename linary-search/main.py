@@ -1,11 +1,8 @@
 def linary_search(list, item):
-    i = 1
-    while item > 0:
-        line = list[i]
-        if line == item:
-            return line
-        else:
-            i += 1
+    for n in range(len(list)):
+        # print(n)
+        if n == item:
+            return n
     return None
 
 myList = list(range(1, 100))
