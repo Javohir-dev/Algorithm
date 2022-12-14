@@ -50,3 +50,24 @@ class LinkedList:
     while last.next:
       last = last.next
     last.next = new_node
+  def deleteNode(self, key):
+    """List qiymatini o'chirish"""
+    # List boshini topib olamiz
+    temp = self.head
+    # Birinchi tugunni tekshiramiz
+    if (temp and temp.data == key):
+      self.head = temp.next
+      temp = Node
+      return
+    # Aks holda boshqa tugunlarni qarab chiqamiz
+    while temp:
+      if temp.data == key:
+        break
+      prev = temp
+      temp = temp.next
+    # Agar qiymat qopilmasa
+    if temp == Node:
+      return
+    # Tugunni Listdan o'chiramiz
+    prev.next = temp.next
+    temp = Node

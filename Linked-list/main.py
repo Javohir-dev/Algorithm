@@ -42,4 +42,12 @@ llist.append('Payshanba')
 # # -> Seshanba
 # # -> Chorshanba
 # # -> Payshanba
-# ! Time line: (14:47) of link: (https://youtu.be/IjP7eU316O0)
+
+# Element o'chiramiz
+llist.deleteNode('Yakshanba')
+llist.printList()
+# # -> Dushanba
+# # -> Dushanba Kechasi
+# # -> Seshanba
+# # -> Chorshanba
+# # -> Payshanba
