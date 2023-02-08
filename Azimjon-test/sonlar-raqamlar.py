@@ -16,3 +16,11 @@ def print_digits(num: int) -> None:
     reversed_number_list = list(reversed_number)
     for i in reversed_number_list:
         print(i)
+
+def upper_case(first_name):
+    name_uppered = first_name.title()
+
+    return name_uppered
+
+enter_name = input("Enter Your full name:\n>>>")
+print(upper_case(enter_name))
