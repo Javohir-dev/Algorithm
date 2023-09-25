@@ -1,6 +1,6 @@
 def linary_search(list, item):
     for n in range(len(list)):
-        # print(n)
+        print(n)
         if n == item:
             return n
     return None
